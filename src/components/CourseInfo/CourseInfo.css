@@ -1,0 +1,58 @@
+/* Контейнер для всех курсов */
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Светло-серый фон */
+    border-radius: 20px;
+  }
+  
+  /* Карточка отдельного курса */
+  .course-card {
+    background: #dbd9d9; /* Белый фон для карточки */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #800000; /* Бордовая левая граница */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex: 1 1 300px;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    background: #cc8585; 
+  }
+  
+  /* Заголовок курса */
+  .course-title {
+    color: #800000; /* Бордовый цвет текста */
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Описание курса */
+  .course-description {
+    font-size: 1rem;
+    color: #333333; /* Темно-серый цвет текста */
+    margin-bottom: 15px;
+  }
+  
+  /* Адаптивность для экранов шириной до 879px */
+  @media (max-width: 879px) {
+    .course-card {
+      max-width: 500px;
+    }
+  }
+  
+  /* Адаптивность для экранов шириной от 880px и выше */
+  @media (min-width: 880px) {
+    .course-card {
+      max-width: 350px;
+    }
+  }
+  

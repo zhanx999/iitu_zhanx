@@ -1,0 +1,69 @@
+/* Основные стили футера */
+.footer {
+    background-color: #800000; /* Бордовый цвет */
+    color: #f4f4f4; /* Светло-серый цвет текста */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .link_div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link_div a{
+    margin: 5px 0;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .footer-section p,
+  .footer-section a {
+    font-size: 14px;
+    color: #d3d3d3;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #ffffff;
+  }
+  
+  .socials {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socials li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #d3d3d3;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    color: #d3d3d3;
+  }
+  

@@ -1,0 +1,58 @@
+/* Основные стили контейнера */
+.faculty-container {
+    margin: 75px;
+    background-color: #dbd9d9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Заголовок */
+  .faculty-title {
+    color: #800000; /* Бордовый цвет */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Описание */
+  .faculty-description {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Сетка карточек */
+  .faculty-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+  }
+  
+  /* Карточка студента */
+  .faculty-card {
+    background: white;
+    border-left: 5px solid #800000; /* Бордовая линия */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .faculty-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Имя студента */
+  .student-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Дополнительная информация */
+  .student-info {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
